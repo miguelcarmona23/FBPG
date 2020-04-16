@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/***************** Navbar *****************/
+
 .topnav {
     font-family: roboto;
     background-color: #fff;
@@ -28,6 +31,12 @@
     background-color: black;
     color: white;
 }
+
+
+/***************** End of Navbar *****************/
+
+
+/***************** Photo Grid *****************/
 
 .grid {
     padding: 1em;
@@ -98,6 +107,12 @@
     background-image: url("https://picsum.photos/seed/12/640/400")
 }
 
+
+/***************** End of Photo Grid *****************/
+
+
+/***************** Photo Grid Media Query *****************/
+
 @media screen and (min-width: 480px) {
     .item {
         flex: 1 1 50%
@@ -115,6 +130,9 @@
         flex: 1 1 25%;
     }
 }
+
+
+/***************** Navbar Media Query *****************/
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
